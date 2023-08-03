@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Simple Markers</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <select id="countries" onchange="changeMapLocation(this)">
+      <option value="35.652832;139.839478">japan</option>
+      <option value="52.520008;13.404954">Germany</option>
+      <option value="44.500000;89.500000">Wisconsin, USA</option>
+    </select>
+    <div id="map"></div>
+    <script src="./js/script.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>

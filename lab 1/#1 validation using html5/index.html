@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="card">
+        <h1>Change Email Address</h1>
+        <input
+          placeholder="Enter your username here"
+          type="text"
+          required
+          pattern="^[a-zA-Z]{3,}[1-9a-zA-z]*"
+        />
+        <input
+          placeholder="Enter your email here"
+          type="email"
+          required
+          pattern="^[a-zA-Z]{3,}[1-9a-zA-z]*@[a-zA-Z]+\.[a-zA-Z]{2,3}"
+        />
+        <button type="submit">Change</button>
+      </div>
+    </form>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

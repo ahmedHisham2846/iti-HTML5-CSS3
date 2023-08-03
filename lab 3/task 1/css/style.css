@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container h1 {
+  color: #939393;
+  font-size: 35px;
+}
+
+.container p {
+  color: #989898;
+  max-width: 615px;
+  text-align: center;
+}
+
+.container .fratures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .fratures .one-feeature {
+  margin-top: 30px;
+  width: calc((100% / 3) - 60px);
+  min-width: 272px;
+  display: flex;
+  gap: 10px;
+}
+
+.container .fratures .one-feeature i {
+  background-color: #fff;
+  color: #c52e30;
+  border: 2px solid #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 35px;
+  box-shadow: inset 0px 0px 0px 4px #f2f2f2;
+  transition: 0.3s;
+}
+
+.container .fratures .one-feeature:hover i {
+  color: #fff;
+  background-color: #c52e30;
+  border-color: #c52e30;
+}
+
+.container .fratures .one-feeature .feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container .fratures .one-feeature .feature-text .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #616161;
+}
+
+.container .fratures .one-feeature .feature-text .description {
+  color: #bdbdbd;
+}

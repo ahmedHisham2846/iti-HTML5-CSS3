@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+.trafic {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.trafic .signs {
+  width: 200px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.trafic .stand {
+  width: 50px;
+  height: 150px;
+  background-color: black;
+}
+
+.trafic .signs .sign-light {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.trafic .signs .sign-light:hover {
+  box-shadow: 0px 0px 12px 10px red;
+}
+
+.trafic .signs .sign-light:nth-child(2) {
+  background-color: yellow;
+}
+
+.trafic .signs .sign-light:nth-child(2):hover {
+  box-shadow: 0px 0px 12px 10px yellow;
+}
+
+.trafic .signs .sign-light:nth-child(3) {
+  background-color: green;
+}
+.trafic .signs .sign-light:nth-child(3):hover {
+  box-shadow: 0px 0px 12px 10px green;
+}
